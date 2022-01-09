@@ -69,7 +69,8 @@ h3{
     margin-left:5px;
 }
 .text>*{
-    margin-inline:auto;
+    margin-right:auto;
+    margin-left:auto;
     width:fit-content;
 }
 hr{
