@@ -1,0 +1,112 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    height:100vh;
+    /* overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center; */
+    background-color: hsl(185, 75%, 39%);
+    /* background-image:url(images/bg-pattern-top.svg);
+    background-size:min(70%,400px);
+    background-position-y: -5rem;
+    background-position-x:15rem;
+    background-repeat:no-repeat; */
+}
+.main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+
+}
+
+.profile-image{
+    display:block;
+    border-radius:50%;
+    height:7.5rem;
+    position:absolute;
+    top:calc(35% - 3.75rem);
+    left:calc(50% - 3.75rem);
+    border:6px solid white;
+
+}
+.background-image{
+    background-image:url(images/bg-pattern-card.svg);
+    background-color:hsl(185, 75%, 39%);
+    height:35%;
+    border-radius:15px 15px 0 0;
+}
+
+.card{
+    width:min(90%,23rem);
+    height:25rem;
+    border-radius:15px;
+    position:relative;
+    color:hsl(229, 23%, 23%);
+    background-color:white;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+h3{
+    font-weight:700;
+    font-size:1.3rem;
+}
+.text{
+    margin-top:4.5rem;
+    line-height:1.5;
+    font-weight:500;
+    /* padding-bottom:1rem; */
+}
+.number{
+    font-weight:500;
+    margin-left:5px;
+}
+.text>*{
+    margin-inline:auto;
+    width:fit-content;
+}
+hr{
+    border: 1px 0 0 0;
+    border-color:hsla(0, 0%, 100%, 0.5);
+    margin-top:2rem;
+    margin-bottom:0.5rem;}
+.likes{
+    display:flex;
+    align-items:center;
+    height:20%;
+    justify-content:space-evenly;
+    text-align:center;
+    font-size:0.65rem;
+    line-height:1.5;
+    padding-inline:1rem;
+
+}
+.likes>*{
+    letter-spacing: 1.5px;
+}
+.likes-elements{
+    font-weight:700;
+    font-size:1.1rem;
+    letter-spacing:0;
+}
+/* .blue-circle{
+    background-image: url(bg-pattern-bottom.svg);
+    height:200px;
+} */
+.circles{
+    position:absolute;
+    display:block;
+}
+.circle-1{
+margin-right:60rem;   
+margin-top:10rem;
+}
+.circle-2{
+margin-left:55rem;
+margin-bottom:5.5rem;
+}
